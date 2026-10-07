@@ -1,0 +1,48 @@
+window.WTW_POOLS=[
+ {team:'Montreal Expos',era:'1990s',players:[
+  {name:'Vladimir Guerrero',positions:['RF','DH'],rating:97,stat:'.316 AVG · power · arm'},
+  {name:'Larry Walker',positions:['RF','CF','DH'],rating:96,stat:'Power · speed · defense'},
+  {name:'Pedro Martínez',positions:['SP'],rating:99,stat:'Ace-level strikeouts and run prevention'},
+  {name:'Moises Alou',positions:['LF','DH'],rating:93,stat:'Middle-order bat'},
+  {name:'Marquis Grissom',positions:['CF'],rating:91,stat:'Speed · defense · contact'},
+  {name:'Wil Cordero',positions:['SS'],rating:87,stat:'Power-hitting infielder'},
+  {name:'Darrin Fletcher',positions:['C'],rating:84,stat:'Catcher · contact'},
+  {name:'Mike Lansing',positions:['2B','3B'],rating:84,stat:'Infield versatility'},
+  {name:'Andrés Galarraga',positions:['1B','DH'],rating:94,stat:'Power · run production'}]},
+ {team:'Cincinnati Reds',era:'1970s',players:[
+  {name:'Johnny Bench',positions:['C','DH'],rating:99,stat:'Elite power · elite catcher'},
+  {name:'Joe Morgan',positions:['2B','DH'],rating:99,stat:'OBP · power · speed'},
+  {name:'Pete Rose',positions:['3B','LF','RF','DH'],rating:96,stat:'Contact · on-base'},
+  {name:'Tony Pérez',positions:['1B','3B','DH'],rating:95,stat:'Power · run production'},
+  {name:'George Foster',positions:['LF','DH'],rating:96,stat:'MVP-level power'},
+  {name:'Dave Concepción',positions:['SS'],rating:91,stat:'Defense · speed'},
+  {name:'César Gerónimo',positions:['CF'],rating:89,stat:'Elite outfield defense'},
+  {name:'Ken Griffey Sr.',positions:['RF','DH'],rating:91,stat:'Contact · speed'},
+  {name:'Tom Seaver',positions:['SP'],rating:98,stat:'Ace-level starter'}]},
+ {team:'New York Yankees',era:'1990s',players:[
+  {name:'Derek Jeter',positions:['SS','DH'],rating:96,stat:'Contact · on-base · shortstop'},
+  {name:'Bernie Williams',positions:['CF','DH'],rating:94,stat:'Switch hitter · power'},
+  {name:"Paul O'Neill",positions:['RF','DH'],rating:92,stat:'Contact · power'},
+  {name:'Tino Martinez',positions:['1B','DH'],rating:91,stat:'Power · run production'},
+  {name:'Jorge Posada',positions:['C','DH'],rating:89,stat:'Switch-hitting catcher'},
+  {name:'Chuck Knoblauch',positions:['2B','DH'],rating:88,stat:'On-base · speed'},
+  {name:'Scott Brosius',positions:['3B'],rating:86,stat:'Defense · clutch power'},
+  {name:'Andy Pettitte',positions:['SP'],rating:93,stat:'Durable left-handed starter'}]},
+ {team:'Brooklyn Dodgers',era:'1950s',players:[
+  {name:'Jackie Robinson',positions:['2B','3B','1B','DH'],rating:98,stat:'On-base · speed · versatility'},
+  {name:'Duke Snider',positions:['CF','DH'],rating:97,stat:'Power-hitting center fielder'},
+  {name:'Roy Campanella',positions:['C','DH'],rating:97,stat:'MVP catcher · power'},
+  {name:'Gil Hodges',positions:['1B','DH'],rating:94,stat:'Power · defense'},
+  {name:'Pee Wee Reese',positions:['SS'],rating:92,stat:'Defense · on-base'},
+  {name:'Carl Furillo',positions:['RF','DH'],rating:91,stat:'Contact · throwing arm'},
+  {name:'Don Newcombe',positions:['SP'],rating:96,stat:'Ace starter · MVP/Cy Young caliber'}]},
+ {team:'Seattle Mariners',era:'1990s',players:[
+  {name:'Ken Griffey Jr.',positions:['CF','DH'],rating:99,stat:'Power · defense · superstar'},
+  {name:'Alex Rodriguez',positions:['SS','DH'],rating:98,stat:'Power-hitting shortstop'},
+  {name:'Edgar Martinez',positions:['3B','DH'],rating:97,stat:'Elite hitter · on-base'},
+  {name:'Jay Buhner',positions:['RF','DH'],rating:92,stat:'Power · arm'},
+  {name:'Dan Wilson',positions:['C'],rating:85,stat:'Defense-first catcher'},
+  {name:'Joey Cora',positions:['2B'],rating:85,stat:'Contact · speed'},
+  {name:'Tino Martinez',positions:['1B','DH'],rating:88,stat:'Power · first base'},
+  {name:'Randy Johnson',positions:['SP'],rating:99,stat:'Dominant strikeout ace'}]}
+];
