@@ -1,0 +1,5256 @@
+{
+  "source": "SABR Lahman Baseball Database 1871-2025",
+  "pools": 327,
+  "players_total": 7853,
+  "teams": 62,
+  "eras": [
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s"
+  ],
+  "note": "Ratings are Wire to Wire prototype/game ratings, not official MLB ratings.",
+  "pool_coverage": [
+    {
+      "team": "Anaheim Angels",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Anaheim Angels",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 4,
+        "DH": 18,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 2,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 6,
+        "DH": 22,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 5,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Athletics",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 15,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "1960s",
+      "coverage": {
+        "C": 4,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 4,
+        "LF": 6,
+        "CF": 5,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 10,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 9,
+        "CF": 4,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 5,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Atlanta Braves",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 2,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 2,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 2,
+        "SS": 5,
+        "LF": 7,
+        "CF": 3,
+        "RF": 5,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 8,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Baltimore Orioles",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 16,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Boston Americans",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 2,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 3,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Beaneaters",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 4,
+        "DH": 20,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Boston Bees",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Boston Bees",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 2,
+        "3B": 3,
+        "SS": 1,
+        "LF": 1,
+        "CF": 2,
+        "RF": 2,
+        "DH": 13,
+        "SP": 9
+      }
+    },
+    {
+      "team": "Boston Braves",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Braves",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Boston Braves",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Boston Braves",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Braves",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Boston Doves",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Boston Doves",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 1,
+        "2B": 2,
+        "3B": 3,
+        "SS": 2,
+        "LF": 2,
+        "CF": 2,
+        "RF": 1,
+        "DH": 12,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 2,
+        "SS": 2,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 4,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 4,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Red Sox",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Boston Rustlers",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 1,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 1,
+        "DH": 15,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Brooklyn Dodgers",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 1,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 2,
+        "CF": 3,
+        "RF": 4,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Brooklyn Dodgers",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Brooklyn Dodgers",
+      "era": "1940s",
+      "coverage": {
+        "C": 4,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 6,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Brooklyn Dodgers",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 2,
+        "RF": 4,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Brooklyn Robins",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Brooklyn Robins",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Brooklyn Robins",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 1,
+        "2B": 4,
+        "3B": 1,
+        "SS": 3,
+        "LF": 5,
+        "CF": 1,
+        "RF": 1,
+        "DH": 15,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Brooklyn Superbas",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Brooklyn Superbas",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 2,
+        "3B": 3,
+        "SS": 3,
+        "LF": 2,
+        "CF": 4,
+        "RF": 4,
+        "DH": 17,
+        "SP": 4
+      }
+    },
+    {
+      "team": "California Angels",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 2,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "California Angels",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 6,
+        "DH": 22,
+        "SP": 3
+      }
+    },
+    {
+      "team": "California Angels",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 7,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "California Angels",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 5,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 4,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 5,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 7,
+        "SS": 3,
+        "LF": 10,
+        "CF": 3,
+        "RF": 7,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 5,
+        "RF": 4,
+        "DH": 17,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Chicago Cubs",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 5,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Chicago Orphans",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 18,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 19,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 7,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 7,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 6,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Chicago White Sox",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cincinnati Redlegs",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 6,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 2,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 8,
+        "CF": 4,
+        "RF": 7,
+        "DH": 20,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 7,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 7,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 6,
+        "SS": 4,
+        "LF": 8,
+        "CF": 5,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cincinnati Reds",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Cleveland Blues",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 1,
+        "2B": 1,
+        "3B": 1,
+        "SS": 3,
+        "LF": 3,
+        "CF": 2,
+        "RF": 4,
+        "DH": 12,
+        "SP": 9
+      }
+    },
+    {
+      "team": "Cleveland Bronchos",
+      "era": "1900s",
+      "coverage": {
+        "C": 2,
+        "1B": 3,
+        "2B": 3,
+        "3B": 1,
+        "SS": 2,
+        "LF": 3,
+        "CF": 2,
+        "RF": 1,
+        "DH": 12,
+        "SP": 10
+      }
+    },
+    {
+      "team": "Cleveland Guardians",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 6,
+        "3B": 4,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 15,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 5,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 7,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 8,
+        "CF": 5,
+        "RF": 7,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cleveland Indians",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Cleveland Naps",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 4,
+        "RF": 3,
+        "DH": 16,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Cleveland Naps",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 5,
+        "RF": 5,
+        "DH": 16,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Colorado Rockies",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Colorado Rockies",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Colorado Rockies",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 5,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Colorado Rockies",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 7,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 4,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 5,
+        "3B": 4,
+        "SS": 2,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 6,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 5,
+        "CF": 6,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 8,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 8,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 7,
+        "DH": 17,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Detroit Tigers",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 6,
+        "DH": 15,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Florida Marlins",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Florida Marlins",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Florida Marlins",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 2,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 7,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 16,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 7,
+        "CF": 5,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Houston Astros",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 4,
+        "LF": 7,
+        "CF": 4,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Houston Colt .45's",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Kansas City Athletics",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 7,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Kansas City Athletics",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 10,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 2,
+        "SS": 2,
+        "LF": 2,
+        "CF": 4,
+        "RF": 4,
+        "DH": 13,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "1980s",
+      "coverage": {
+        "C": 4,
+        "1B": 5,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Kansas City Royals",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 15,
+        "SP": 9
+      }
+    },
+    {
+      "team": "Los Angeles Angels",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 6,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Los Angeles Angels of Anaheim",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Los Angeles Angels of Anaheim",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Los Angeles Angels of Anaheim",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 16,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "1950s",
+      "coverage": {
+        "C": 2,
+        "1B": 3,
+        "2B": 2,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 15,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 5,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 8,
+        "CF": 4,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 5,
+        "LF": 7,
+        "CF": 7,
+        "RF": 6,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 8
+      }
+    },
+    {
+      "team": "Miami Marlins",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Miami Marlins",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 8,
+        "CF": 6,
+        "RF": 7,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Milwaukee Braves",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Milwaukee Braves",
+      "era": "1960s",
+      "coverage": {
+        "C": 4,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 9,
+        "CF": 6,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "1900s",
+      "coverage": {
+        "C": 4,
+        "1B": 2,
+        "2B": 1,
+        "3B": 2,
+        "SS": 1,
+        "LF": 2,
+        "CF": 4,
+        "RF": 2,
+        "DH": 12,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 9,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 7,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 6,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 8,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 15,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 5,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 5,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 5,
+        "CF": 5,
+        "RF": 7,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Minnesota Twins",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Montreal Expos",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 2,
+        "SS": 2,
+        "LF": 2,
+        "CF": 5,
+        "RF": 1,
+        "DH": 14,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Montreal Expos",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Montreal Expos",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Montreal Expos",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Montreal Expos",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 6,
+        "SS": 4,
+        "LF": 7,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 7,
+        "CF": 6,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 3,
+        "DH": 16,
+        "SP": 6
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 7,
+        "CF": 7,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Giants",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "New York Highlanders",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 6,
+        "CF": 7,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Highlanders",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 6,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 4,
+        "LF": 6,
+        "CF": 4,
+        "RF": 5,
+        "DH": 15,
+        "SP": 8
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 7,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 6,
+        "3B": 7,
+        "SS": 3,
+        "LF": 6,
+        "CF": 5,
+        "RF": 7,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Mets",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 6,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 16,
+        "SP": 8
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 7,
+        "DH": 16,
+        "SP": 5
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1960s",
+      "coverage": {
+        "C": 4,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 6,
+        "CF": 5,
+        "RF": 5,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 6,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "New York Yankees",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 7,
+        "DH": 15,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 1,
+        "SS": 2,
+        "LF": 5,
+        "CF": 3,
+        "RF": 2,
+        "DH": 16,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Oakland Athletics",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 5,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 3,
+        "CF": 5,
+        "RF": 4,
+        "DH": 21,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Athletics",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 22,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Blue Jays",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 3,
+        "CF": 2,
+        "RF": 1,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 5,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 4,
+        "RF": 7,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 6,
+        "RF": 6,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 5,
+        "SS": 4,
+        "LF": 11,
+        "CF": 6,
+        "RF": 3,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 6,
+        "CF": 4,
+        "RF": 6,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 5,
+        "CF": 4,
+        "RF": 8,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 7,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 7,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 7,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 8,
+        "CF": 4,
+        "RF": 10,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "1960s",
+      "coverage": {
+        "C": 2,
+        "1B": 2,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 2,
+        "DH": 14,
+        "SP": 9
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "1970s",
+      "coverage": {
+        "C": 4,
+        "1B": 6,
+        "2B": 3,
+        "3B": 7,
+        "SS": 3,
+        "LF": 8,
+        "CF": 4,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 6,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 3,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 16,
+        "SP": 8
+      }
+    },
+    {
+      "team": "San Diego Padres",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 2,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 1,
+        "RF": 2,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "1960s",
+      "coverage": {
+        "C": 4,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 7,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 5,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 9,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "San Francisco Giants",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 4,
+        "RF": 3,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 2,
+        "RF": 5,
+        "DH": 18,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 3,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 5,
+        "LF": 4,
+        "CF": 4,
+        "RF": 5,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 8,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Seattle Mariners",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Seattle Pilots",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 15,
+        "SP": 7
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 2,
+        "LF": 3,
+        "CF": 3,
+        "RF": 7,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 6,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 5,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 4,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 5,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Browns",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 8,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 6,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1920s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 18,
+        "SP": 5
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 4,
+        "RF": 6,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 7,
+        "CF": 5,
+        "RF": 5,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 7,
+        "DH": 23,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 4,
+        "RF": 7,
+        "DH": 18,
+        "SP": 4
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 7,
+        "CF": 4,
+        "RF": 7,
+        "DH": 21,
+        "SP": 4
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 7,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 16,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Tampa Bay Devil Rays",
+      "era": "1990s",
+      "coverage": {
+        "C": 2,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Tampa Bay Devil Rays",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 3,
+        "3B": 3,
+        "SS": 4,
+        "LF": 3,
+        "CF": 5,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 2,
+        "SS": 3,
+        "LF": 5,
+        "CF": 2,
+        "RF": 3,
+        "DH": 15,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 5,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 6,
+        "SS": 3,
+        "LF": 6,
+        "CF": 4,
+        "RF": 4,
+        "DH": 18,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 6,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 7,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 8,
+        "CF": 4,
+        "RF": 3,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Texas Rangers",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 6,
+        "CF": 3,
+        "RF": 3,
+        "DH": 17,
+        "SP": 7
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 2,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 6,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "1980s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "1990s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 3,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 3,
+        "RF": 5,
+        "DH": 19,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 6,
+        "3B": 4,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Washington Nationals",
+      "era": "2000s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 4,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 4,
+        "DH": 18,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Washington Nationals",
+      "era": "2010s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 5,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 19,
+        "SP": 5
+      }
+    },
+    {
+      "team": "Washington Nationals",
+      "era": "2020s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 8,
+        "CF": 3,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1900s",
+      "coverage": {
+        "C": 3,
+        "1B": 8,
+        "2B": 5,
+        "3B": 3,
+        "SS": 3,
+        "LF": 5,
+        "CF": 4,
+        "RF": 5,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1910s",
+      "coverage": {
+        "C": 3,
+        "1B": 5,
+        "2B": 6,
+        "3B": 4,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 21,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1920s",
+      "coverage": {
+        "C": 4,
+        "1B": 3,
+        "2B": 3,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 4,
+        "RF": 3,
+        "DH": 17,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1930s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 4,
+        "SS": 4,
+        "LF": 6,
+        "CF": 3,
+        "RF": 5,
+        "DH": 20,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1940s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 4,
+        "3B": 6,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 4,
+        "DH": 20,
+        "SP": 4
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1950s",
+      "coverage": {
+        "C": 3,
+        "1B": 3,
+        "2B": 3,
+        "3B": 3,
+        "SS": 3,
+        "LF": 3,
+        "CF": 3,
+        "RF": 3,
+        "DH": 18,
+        "SP": 6
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1960s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 3,
+        "3B": 5,
+        "SS": 3,
+        "LF": 7,
+        "CF": 3,
+        "RF": 8,
+        "DH": 21,
+        "SP": 3
+      }
+    },
+    {
+      "team": "Washington Senators",
+      "era": "1970s",
+      "coverage": {
+        "C": 3,
+        "1B": 4,
+        "2B": 4,
+        "3B": 4,
+        "SS": 3,
+        "LF": 4,
+        "CF": 3,
+        "RF": 4,
+        "DH": 18,
+        "SP": 5
+      }
+    }
+  ]
+}
