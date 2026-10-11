@@ -6,6 +6,7 @@
   const RETURN_URL = 'https://jakeearls1.github.io/Wire-to-Wire/';
   const style = document.createElement('style');
   style.textContent = `
+    .wtw-auth-dialog [hidden]{display:none!important}
     .wtw-account{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;padding:10px 12px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
     .wtw-account-name{font-size:13px;font-weight:850;overflow-wrap:anywhere;min-width:0}.wtw-account small{display:block;font-size:11px;font-weight:400;color:var(--muted);margin-top:3px}
     .wtw-account button{flex-shrink:0}.wtw-auth-dialog{width:min(440px,calc(100% - 24px));max-height:90dvh;overflow:auto;padding:20px;border:1px solid var(--line);border-radius:20px;background:var(--panel);color:var(--text)}
