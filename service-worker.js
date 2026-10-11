@@ -1,7 +1,7 @@
 // Wire to Wire PWA offline support — bump this version when app assets change.
-const CACHE_NAME = 'wire-to-wire-pwa-v3-account-layout';
+const CACHE_NAME = 'wire-to-wire-pwa-v4-scoreboard';
 const CORE_FILES = [
-  './', './index.html', './auth.js', './data/seed-pools.js', './manifest.json',
+  './', './index.html', './auth.js', './leaderboard.js', './data/seed-pools.js', './manifest.json',
   './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'
 ];
 self.addEventListener('install', event => {
@@ -51,4 +51,5 @@ self.addEventListener('fetch', event => {
     return response;
   })());
 });
+
 

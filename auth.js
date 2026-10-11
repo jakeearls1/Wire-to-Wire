@@ -53,6 +53,7 @@
     el('wtwAccountName').textContent = user ? '⚾ ' + (user.user_metadata?.player_name || 'Player') : 'Playing as a guest';
     el('wtwAccountHint').textContent = user ? 'You’re logged in. Enjoy your next draft!' : 'Create your player account whenever you’re ready.';
     el('wtwAccountButton').textContent = user ? 'Log out' : 'Log in / Sign up';
+    window.dispatchEvent(new CustomEvent('wtw:auth-change', {detail:{userId:user?.id || null}}));
   }
   function setMode(next) {
     mode = next;
@@ -184,6 +185,11 @@
     } catch (error) { message(error.message || 'Something went wrong. Please try again.', true); }
     finally { setBusy(false); }
   });
+  window.WTWAccounts = Object.freeze({
+    getClient: ensureClient,
+    getUser: () => session?.user || null,
+    openLogin: () => open('login')
+  });
   setMode('login');
   if (callbackError) { recovery = false; clearCallback(); open('login'); message(callbackError, true); }
   ensureClient().then(async authClient => {
@@ -194,3 +200,4 @@
     else if (recovery) { recovery = false; open('reset'); message('That reset link has expired. Please request another one.', true); }
   }).catch(() => { el('wtwAccountHint').textContent = 'Accounts need a connection. Guest play is available.'; });
 })();
+
