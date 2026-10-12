@@ -142,6 +142,7 @@
       const {error} = await client.rpc('wtw_submit_season', {p_run_id:target.runId, p_mode:target.mode, p_wins:target.wins, p_average:target.average});
       if (error) throw error;
       target.saved = true;
+      window.dispatchEvent(new CustomEvent('wtw:season-posted',{detail:{runId:target.runId,userId:target.ownerId}}));
       if (dialog.open) loadBoard();
     } catch (error) {
       target.error = backendMissing(error) ? 'The leaderboard database isn’t set up yet. Your result is here; tap Post this season after setup.' : error?.code === 'P0001' ? error.message : 'Couldn’t post this season. Check your connection and try again.';
@@ -162,3 +163,4 @@
     if (season && !season.saved && account() && (!season.ownerId || account().id === season.ownerId)) submitSeason();
   });
 })();
+
